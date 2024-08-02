@@ -1,0 +1,10 @@
+Access modifiers in programming define the scope and visibility of class members (attributes and methods). They determine how accessible these members are from other parts of the code, particularly from outside the class. In C++, there are three primary access modifiers:
+
+1. Public
+Members declared as public can be accessed from anywhere in the program. This includes access from outside the class, from other classes, and from functions.
+
+2. Private
+Members declared as private can only be accessed within the same class. They cannot be accessed or modified directly from outside the class, including from other classes or functions. Private members are often used to protect the internal state of an object and enforce encapsulation.
+
+3. Protected
+Members declared as protected can be accessed within the same class and by derived classes. However, they are not accessible from outside the class hierarchy. This modifier is particularly useful in inheritance, where derived classes need access to certain members of the base class
